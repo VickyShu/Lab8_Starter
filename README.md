@@ -1,1 +1,6 @@
 # Lab 8 - Starter
+## Xin Shu
+1. I would select the first one: "within a Github action that runs whenever code is pushed". This is because integrating automated tests within a CI/CD pipeline, such as Github Actions, is a good practice as it allows automated tests run in a consistent environment and manner. This could reduce the chance of missed bugs or errors that could occur if tests are run manually. Also, it allows developers get immediate feedback on their changes. If a test fails, they will be notified immediately, allowing them to quickly fix the bugs before merging into the main branch. And it also helps to improve collaboration and transparency as the results are visible to all team members.
+2. No
+3. I would not use unit tests to test the "message" feature of a messaging application because unit tests are cannot test how these individual components interact with each other on an application level. 
+4. Yes, I could use a unit test to test the “max message length” feature of a messaging application. I could test by writing a unit test to confirm that the system correctly identifies and handles a situation where a user attempts to type or send a message exceeding 80 characters.
